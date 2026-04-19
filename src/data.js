@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/mzk006/",
   github: "https://github.com/ZahirKhan97",
   whatsapp: "https://wa.me/923335075372",
-  profileImage: "/src/img/profile.jpeg",
+  profileImage: `${import.meta.env.BASE_URL}/img/profile.jpeg`,
   about: "A passionate Fullstack Developer with over 4 years of hands-on experience in building scalable web applications, robust REST APIs, and modern user interfaces using JavaScript and PHP frameworks. I specialize in the Laravel and MERN stack, thriving on solving complex architectural problems and delivering pixel-perfect, accessible code that prioritizes user experience.",
 };
 
@@ -74,28 +74,28 @@ export const CLIENT_PROJECTS = [
     title: "Fifth Infiniti",
     description: "A premium automotive eCommerce platform specializing in high-end parts. Features a dynamic catalog and optimized user flow.",
     tech: ["CodeIgniter", "PHP", "jQuery", "Bootstrap"],
-    image: "/src/img/fifthinfiniti.png",
+    image: `${import.meta.env.BASE_URL}/img/fifthinfiniti.png`,
     link: "https://fifthinfiniti.com"
   },
   {
     title: "Travel Jokes Tourism",
     description: "Full-scale travel and tourism platform for domestic and international tour management. Includes integrated booking and package handling.",
     tech: ["Laravel", "PHP", "MySQL", "Bootstrap"],
-    image: "/src/img/traveljokes.png",
+    image: `${import.meta.env.BASE_URL}/img/traveljokes.png`,
     link: "https://traveljokestourism.com"
   },
   {
     title: "Pak Rents",
     description: "Comprehensive vehicle rental platform designed for simplicity and efficiency in the Pakistani market.",
     tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "Vue Js"],
-    image: "/src/img/pakrents.png",
+    image: `${import.meta.env.BASE_URL}/img/pakrents.png`,
     link: "https://pakrents.com"
   },
   {
     title: "Mood As Food: Flutter & Admin",
     description: "A dual-component solution featuring a cross-platform Flutter app and a powerful Laravel Admin Dashboard. Currently in active development/review.",
     tech: ["Flutter", "React Js", "Express Js", "REST API", "MongoDB"],
-    image: "/src/img/mood-as-food.png",
+    image: `${import.meta.env.BASE_URL}/img/mood-as-food.png`,
     link: "https://lawngreen-shrew-452437.hostingersite.com/"
   },
   {
